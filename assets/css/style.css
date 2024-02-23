@@ -127,6 +127,7 @@ section {
 
 #project_container {
     flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .project {
