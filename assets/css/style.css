@@ -108,7 +108,8 @@ section {
 }
 
 .ta-center {
-    text-align: center; 
+    text-align: center;
+    margin: 20px; 
 }
 
 .circle-style {
@@ -123,6 +124,7 @@ section {
 
 #circle-style-phone {
     width : 45%;
+    margin: 15px;
 }
 
 
@@ -198,6 +200,7 @@ section {
 .contact-link {
     text-decoration: none;
     color: #757575;
+    margin: 15px 0;
 }
 
 .form_line {
