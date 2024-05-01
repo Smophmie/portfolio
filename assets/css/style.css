@@ -294,6 +294,7 @@ input, textarea {
 
     main {
         width: 100%;
+        min-height: auto;
     }
 
     .background {

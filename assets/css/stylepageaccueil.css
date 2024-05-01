@@ -2,11 +2,14 @@ html {
     font-family: 'Lora', serif;
     line-height: 30px;
     margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to left top, #e7644f, #f29e3d);
+
     
 }
 
 body {
-    background-image: linear-gradient(to left top, #e7644f, #f29e3d);
+    /* background-image: linear-gradient(to left top, #e7644f, #f29e3d); */
     height:100vh;
     width:100vw;
     overflow: hidden;
@@ -101,11 +104,21 @@ h1 {
 @media screen and (max-width: 1200px) {
     h1 {
         font-size: 90%;
+        color: white;
     }
 
     header {
         height: 280px;
         position: static;
+    }
+
+    #circle-title {
+        max-width: 100vw;
+        width: auto;
+        height: auto;
+        background-color: transparent;
+        border-radius:0%;
+        padding: 0;
     }
 
     .nav_header {
@@ -125,7 +138,8 @@ h1 {
         position: static;
     }
 
-    i {
+    .nav_social_media i {
         padding: 0 2px;
+        color: white;
     }
 }
