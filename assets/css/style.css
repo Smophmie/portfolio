@@ -143,6 +143,11 @@ section {
     border-radius: 10%;
 }
 
+
+.project0 {
+    background-image: url(../images/dashboard-jcp-voyages.png);
+}
+
 .project1 {
     background-image: url(../images/capture-site-rucher.png);
 }
